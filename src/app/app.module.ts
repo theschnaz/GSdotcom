@@ -5,16 +5,16 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { WelcomeComponent } from './welcome/welcome.component';
 import { ResumeComponent } from './resume/resume.component';
 import { SoftwareComponent } from './software/software.component';
+import { SourcecodeComponent } from './sourcecode/sourcecode.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeComponent,
     ResumeComponent,
-    SoftwareComponent
+    SoftwareComponent,
+    SourcecodeComponent
   ],
   imports: [
     BrowserModule,
