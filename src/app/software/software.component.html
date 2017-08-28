@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="jumbotron">
+    <h1>Apps I Created</h1>
+    <h2>Rails, Node.js, Angular, and more!</h2>
+  </div>
+  <div *ngFor="let data of datas">
+  <blockquote>
+  	<div style="float:left; padding-right:20px;">
+      <img src={{data.logo}} />
+    </div>
+    <div style="float:left; width:600px;">
+      <h3>{{data.name}}</h3>
+      <p>{{data.description}}</p>
+      <a href={{data.itunes}} *ngIf="data.itunes">iTunes</a>
+      <span *ngIf="data.itunes">|</span>
+      <a href={{data.googleplay}} *ngIf="data.googleplay"> Google Play</a>
+      <span *ngIf="data.url">|</span>
+      <a href={{data.url}} *ngIf="data.url">Website</a>
+
+    </div>
+    <div style="clear:both"></div>
+  </blockquote>
+
+  </div>
+</div>
