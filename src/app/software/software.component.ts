@@ -24,7 +24,7 @@ export class SoftwareComponent implements OnInit {
   datas = []; 
 
   ngOnInit(): void {
-  	this.http.get<SoftwareResponse>('https://www.democracyfollows.com/gsdotcom.json').subscribe(data => {
+  	this.http.get<SoftwareResponse>('../assets/gsdotcom.json').subscribe(data => {
   		console.log("Name: " + data["data"][0]["name"]);
   		console.log("itunes: " + data["data"][0]["itunes"]);
       this.datas = data["data"];

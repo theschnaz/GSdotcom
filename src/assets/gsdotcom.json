@@ -1,0 +1,32 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"name": "Democracy Follows",
+			"url": "https://www.democracyfollows.com",
+			"itunes": "https://itunes.apple.com/us/app/democracy-follows/id1191210287?mt=8",
+			"googleplay": "https://play.google.com/store/apps/details?id=com.democracyfollows&hl=en",
+			"logo": "../assets/df.jpg",
+			"description": "Democracy Follows is a personalized weekly newsletter about the people who represent you in government, from local to federal. #rails #iOS #Android #SendGrid"
+		},
+		{
+			"id": 2,
+			"name": "Likely",
+			"url": "",
+			"itunes": "https://itunes.apple.com/app/which-is-likely-better/id1035137555?mt=8",
+			"googleplay": "https://play.google.com/store/apps/details?id=com.likely",
+			"logo": "../assets/likely.jpg",
+			"description": "Which is Likely better? Take photos of people, art, food, and more... see which one is likely beter! #rails #iOS #Android #Appcelerator"
+		},
+		{
+			"id": 3,
+			"name": "GregorySchnese.com",
+			"url": "",
+			"itunes": "",
+			"googleplay": "",
+			"logo": "../assets/gsdotcom.png",
+			"description": "GregorySchnese.com is a singple page web app. I wrote its front-end in Angular and its back-end in Node.js. It is hosted on Heroku. #Angular #Nodejs #Heroku"
+		}
+	]
+
+}
